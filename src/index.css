@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  width: 80px;
+  min-height: 100vh;
+  background: #1e2139;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.badge {
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.badge.paid { background: #33d69f; color: white; }
+.badge.pending { background: #ff8f00; color: white; }
+.badge.draft { background: #373b53; color: white; }
